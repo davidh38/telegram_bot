@@ -2,7 +2,7 @@
 import requests
 import json
 
-TOKEN = "1328791617:AAHe8g9dP4POxSP4dB_f5_feocXNxeEAJJc"
+TOKEN = ""
 
 # send message
 # def sendMessage(token, message):
