@@ -13,9 +13,12 @@
 ## Program Description
 The program checks for messages (last 100) and deletes any message, which contains the word "bitcoin" or "crypto". This results in deleting already deleted messages, because telegram does not differentiate between deleted messages and not deleted messages.
 
-[before](https://github.com/davidh38/telegram_bot/blob/master/docs/img1.png?raw=true "before")
-[message](https://github.com/davidh38/telegram_bot/blob/master/docs/img2.png?raw=true "message")
-[after job](https://github.com/davidh38/telegram_bot/blob/master/docs/img3.png?raw=true "after job ran")
+normal group chat:
+![before](https://github.com/davidh38/telegram_bot/blob/master/docs/img1.png?raw=true "before")
+message about bitcoin is sent:
+![message](https://github.com/davidh38/telegram_bot/blob/master/docs/img2.png?raw=true "message")
+after the program ran, the message is deleted:
+![after job](https://github.com/davidh38/telegram_bot/blob/master/docs/img3.png?raw=true "after job ran")
 
 ## Future Improvements
 * it is probably better to have the program as webhook
