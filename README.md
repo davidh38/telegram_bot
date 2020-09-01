@@ -8,7 +8,7 @@
 
 ## Set up Main.py as cron job 
 * pip install -r requirements.txt
-* run Main.py as cronjob every 
+* run Main.py as cronjob
 
 ## Program Description
 The program checks for messages (last 100) and deletes any message, which contains the word "bitcoin" or "crypto". This results in deleting already deleted messages, because telegram does not differentiate between deleted messages and not deleted messages.
